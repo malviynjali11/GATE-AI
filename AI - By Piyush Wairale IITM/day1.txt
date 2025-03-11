@@ -1,0 +1,28 @@
+1- AI covers a range of techniques that appears as sentient behavior by the computer. For example, AI is used to recognized faces in photographs on our social media, beat the World's Champion in chess, and process our speech when we speak to Siri or Alex on our phone.
+
+2- Search : Finding a solution to the problem, like a navigator app that finds the best route from our origin to the destination, or like playing a game and figuring out the next move.
+
+3- Agent : An entity that perceives its environment and acts upon that environment. In a navigator app, for example, the agent would be a representation of a car that needs to decide on which actions to take to arrive at the destination.
+
+4- State : A configuration of an agent in its environment.
+
+5- Action : Choices that can be made in a State. More precisely, actions can be defined as a function. Upon receiving state S as input, Action(s) returns as output the set of actions that can be executed in state S.
+
+6- Transition Model : A description of what state results from performing any applicable action in any state. More precisely, the Transition model can be defined as a function. Upon receiving state S and action a as input, Results(s, a) returns the state resulting from performing action a in state s.
+
+7- State Space : The set of all states reachable from the initial state by any sequence of actions.
+
+8- Path Cost : A numerical cost associated with a given path.
+for example, a navigator app does not simply bring us to our goal; it does so while minimizing the path cost, finding the fastest way possible for us to get to our goal state.
+
+9- Solution : A sequence of actions that leads from the initial state to the goal state.
+
+10- Optimal Solution : A solution that has the lowest path cost among all solutions.
+
+### Search Problem : Initial State -> Actions -> Transition Model -> Goal Test -> Path Cost Function -> Solution, Optimal Solution
+
+11- Node : It is a data structure that keep track of a state, a parent(node that generated this node), an action(action applied to parent to get node), a path cost(from initial state to node).
+
+12- Stack : Last in First Out data type.
+
+13 - Depth First Search (Uninformed Search)
